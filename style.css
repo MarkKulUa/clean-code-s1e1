@@ -56,12 +56,12 @@ input, .btn {
 }
 
 .btn {
+    font-family: Lato, sans-serif;
     background: none;
     border: 0;
     color: #888;
     font-size: 15px;
     width: 60px;
-    font-family: Lato, sans-serif;
     cursor: pointer;
 }
 
