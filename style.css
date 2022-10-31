@@ -1,14 +1,14 @@
 /* Basic Style */
 body {
+    font-family: Lato, sans-serif;
     background-color: #f8f8f8;
     color: #333;
-    font-family: Lato, sans-serif;
 }
 
 .nav {
+    display: block;
     width: 500px;
     margin: 0 auto;
-    display: block;
     text-align: right;
 }
 
@@ -33,9 +33,9 @@ body {
 }
 
 .task {
-    width: 56%;
     display: inline-block;
     flex-grow: 1;
+    width: 56%;
 }
 
 .task-row-wrapper {
@@ -82,15 +82,15 @@ h3,
 }
 
 .text-input {
-    margin: 0;
+    font-family: Lato, sans-serif;
     font-size: 18px;
     line-height: 18px;
+    margin: 0;
     height: 21px;
     padding: 0 9px;
     border: 1px solid #dDd;
     background: #FFF;
     border-radius: 6px;
-    font-family: Lato, sans-serif;
     color: #888;
 }
 
